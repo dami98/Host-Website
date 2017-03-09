@@ -2,11 +2,19 @@
 	
 	<body>
 		<h1>Hello this is the heading</h1>
-
-		<p>and this is the first paragraph</p>
+		<p>and this is the first paragraph</p>		
+		<button onclick="Page1.myFunction()">Button</button>
 		
-		<button onclick="Page1.html">Button</button>
+		<p id="demo"></p>
 	</body>
+	<script>
+	
+	function myFunction()
+	{
+		document.getElementById("demo").innerHTML = "Hello World"
+	}
+	
+	</script>
 
 
 
